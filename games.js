@@ -47,7 +47,6 @@ alert ("Sorry! You lose!");
     playerTotal = playerTotal + num1;
     console.log("New playerTotal= " + playerTotal);
     $('#totalScore').text(playerTotal); 
-          //Win & lose conditions
         if (playerTotal == Random){
           win();
         }
